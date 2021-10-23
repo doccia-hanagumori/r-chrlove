@@ -59,7 +59,7 @@ table {
 
 /* 見出しのwebフォント */
 
-h1, h2, h3, h4, h5, .menu, .menu2, .type, .poem {
+h1, h2, h3, h4, h5, .menu, .menu2, .type, .poem, .list_t {
     font-family: 'Noto Serif JP', serif;
 }
 
@@ -76,7 +76,6 @@ h1, h2, h3, h4, h5, .menu, .menu2, .type, .poem {
     overflow: hidden;
     position: relative;
 }
-
 
 @media (min-width:768px) {
     .title::before {
@@ -118,7 +117,7 @@ hr {
 }
 
 .body_i {
-    background: rgb(0, 0, 0);
+    background: rgb(4, 4, 5);
     color: #fff;
     box-sizing: border-box;
     position: relative;
@@ -141,6 +140,13 @@ hr {
 
 .logo {
     text-align: center;
+}
+
+.copyright {
+    font-size: 80%;
+    text-align: center;
+    margin: 80px auto;
+    max-width: 80%;
 }
 
 @media screen and (max-width: 767px) {
@@ -206,6 +212,14 @@ hr {
     margin: 20px auto 20px;
 }
 
+.list_t {
+    font-size: 180%;
+}
+
+.list_p {
+    padding: 20px;
+}
+
 .menu>a, .menu2>a {
     text-decoration: none;
 }
@@ -217,35 +231,11 @@ hr {
 }
 
 .list_link {
-    background-color: rgb(10, 51, 65);
-    color: #fff;
-    border: 1px solid rgba(56, 111, 129, 0);
-    text-decoration: none;
-    display: inline-block;
-    width: 350px;
-    margin: 3px 5px;
-    padding: 0.8rem 0.5rem;
-}
-
-.list_link::before, .list_link::after {
-    position: absolute;
-    z-index: -1;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
     display: block;
-    content: '';
-}
-
-.list_link, .list_link::before, .list_link::after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-}
-
-.list_link:hover {
-    background-color: rgb(0, 0, 0);
-    border-color: rgb(255, 255, 255);
-    color: #ffffff;
 }
 
 .credit {
