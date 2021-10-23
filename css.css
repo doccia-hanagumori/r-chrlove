@@ -201,15 +201,18 @@ hr {
     padding: 40px 15px;
 }
 
-.menu {
-    font-size: 150%;
-    margin: 30px auto;
-    line-height: 100%;
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+
+.hidari {
+    width: 300px;
+    height: auto;
 }
 
-.menu2 {
-    font-size: 120%;
-    margin: 20px auto 20px;
+.migi {
 }
 
 .list_t {
@@ -226,7 +229,6 @@ hr {
 
 .list {
     display: flex;
-    justify-content: center;
     list-style-type: none
 }
 
