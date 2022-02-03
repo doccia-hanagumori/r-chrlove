@@ -437,7 +437,7 @@ h3+.player {
 /* ツールチップ */
 
 .tooltip {
-    border-bottom: dotted 1px #FF0000;
+    font-weight:  bold;
     position: relative;
 }
 
