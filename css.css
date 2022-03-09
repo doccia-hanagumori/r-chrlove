@@ -154,14 +154,17 @@ hr {
     .body {
         padding: 10px 10px 60px;
     }
+
     .logo {
         margin: 15px auto 20px;
         max-width: 80px;
         max-height: auto;
     }
+
     hr {
         width: 70%;
     }
+
     .type {
         color: rgb(166, 159, 154);
         font-size: 90%;
@@ -173,14 +176,17 @@ hr {
     .body {
         padding: 20px 30px 60px;
     }
+
     .logo {
         margin: 20px auto 30px;
         width: 602px;
         height: auto;
     }
+
     hr {
         width: 50%;
     }
+
     .type {
         color: rgb(166, 159, 154);
         font-size: 120%;
@@ -207,7 +213,7 @@ hr {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
-  }
+}
 
 .hidari {
     width: 250px;
@@ -238,13 +244,13 @@ hr {
     display: flex;
     list-style-type: none;
     line-height: 2;
+    font-size: 16px;
 }
 
 .list_link {
     color: rgb(255, 255, 255);
-    font-size: 16px;
     padding: 0;
-    margin: 0;
+    margin: 0 5px;
     display: block;
 }
 
@@ -283,21 +289,26 @@ hr {
     .ic {
         margin-right: 10px;
     }
+
     .ic img {
         max-width: 40px;
     }
+
     .box, .system {
         width: 90%;
     }
+
     .box_t {
         font-size: 110%;
         margin-bottom: 10px;
         text-align: center;
         font-weight: bold;
     }
+
     .box2 {
         width: 90%;
     }
+
     .box img, .box2 img {
         max-width: 30px;
     }
@@ -307,21 +318,26 @@ hr {
     .ic {
         margin-right: 15px;
     }
+
     .ic img {
         max-width: 60px;
     }
+
     .box, .system {
         width: 80%;
     }
+
     .box_t {
         font-size: 110%;
         margin-bottom: 10px;
         text-align: center;
         font-weight: bold;
     }
+
     .box2 {
         width: 80%;
     }
+
     .box img, .box2 img {
         max-width: 40px;
     }
@@ -368,9 +384,11 @@ h3 {
         font-size: 140%;
         margin: 15px auto;
     }
+
     h3 {
         font-size: 120%;
     }
+
     .player {
         font-size: 110%;
     }
@@ -381,9 +399,11 @@ h3 {
         font-size: 200%;
         margin: 15px auto;
     }
+
     h3 {
         font-size: 160%;
     }
+
     .player {
         font-size: 120%;
     }
@@ -437,7 +457,7 @@ h3+.player {
 /* ツールチップ */
 
 .tooltip {
-    font-weight:  bold;
+    font-weight: bold;
     position: relative;
 }
 
@@ -481,18 +501,22 @@ h3+.player {
         transition: all.2s;
         z-index: 30
     }
+
     .tooltip:hover .tooltip-text {
         bottom: 0;
     }
+
     .tooltip:hover:after {
         display: block;
     }
+
     .tooltip-text:after {
         display: block;
         position: fixed;
         background: rgba(0, 0, 0, 0.2);
         content: "";
     }
+
     .tooltip:after {
         background: rgba(0, 0, 0, 0.2);
         content: "";
@@ -547,6 +571,12 @@ a:visited:not(.list_link):not(.tooltip):not(.page) {
 a:hover:not(.list_link):not(.tooltip):not(.page) {
     color: rgb(224, 209, 207);
     transition: color 0.5s;
+}
+
+.list_link:hover {
+    transition: 0.2s;
+    text-shadow: 0 0 1em rgb(6, 185, 240);
+    transform: translate(0, -3px)
 }
 
 /* /リンク色 */
