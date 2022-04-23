@@ -60,7 +60,7 @@ table {
 
 /* 見出しのwebフォント */
 
-h1, h2, h3, h4, h5, .menu, .menu2, .type, .poem, .list_t {
+h1, h2, h3, h4, h5, .menu, .menu2, .type, .poem, .list_t, .name {
     font-family: 'Noto Serif JP', serif;
 }
 
@@ -283,12 +283,24 @@ hr {
 }
 
 .name{
-    font-size: 16px;
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
 .charaimg {
     max-width: 120px;
 }
+
+.hidari_c {
+    width: 120px;
+    height: auto;
+}
+
+.migi_c {
+    padding-left: 30px;
+    flex-basis: 500px;
+}
+
 /* main */
 
 .box, .system {
