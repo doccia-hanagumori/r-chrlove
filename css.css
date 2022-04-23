@@ -271,18 +271,19 @@ hr {
 }
 
 /* キャラ紹介 */
-.container_c{
+.container_c {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     flex-wrap: wrap;
 }
+
 .chara {
     text-align: center;
-    margin:20px auto
+    margin: auto
 }
 
-.name{
+.name {
     font-size: 18px;
     margin-bottom: 5px;
 }
@@ -293,12 +294,31 @@ hr {
 
 .hidari_c {
     width: 120px;
-    height: auto;
+    height: 120px;
 }
 
 .migi_c {
     padding-left: 30px;
     flex-basis: 500px;
+}
+
+dt {
+    float: left;
+    font-weight: bold
+}
+
+dd {
+    margin-left: 100px;
+}
+
+.koufuku {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.txt_c {
+    margin-left: 25px;
+    line-height: 25px;
 }
 
 /* main */
