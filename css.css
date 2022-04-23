@@ -213,6 +213,7 @@ hr {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .hidari {
@@ -269,6 +270,25 @@ hr {
     margin-bottom: 15px;
 }
 
+/* キャラ紹介 */
+.container_c{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.chara {
+    text-align: center;
+    margin:20px auto
+}
+
+.name{
+    font-size: 16px;
+}
+
+.charaimg {
+    max-width: 120px;
+}
 /* main */
 
 .box, .system {
