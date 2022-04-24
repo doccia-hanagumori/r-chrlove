@@ -60,7 +60,7 @@ table {
 
 /* 見出しのwebフォント */
 
-h1, h2, h3, h4, h5, .menu, .menu2, .type, .poem, .list_t, .name {
+h1, h2, h3, h4, h5, .menu, .menu2, .type, .poem, .list_t, .name, .box::before, .box2::before {
     font-family: 'Noto Serif JP', serif;
 }
 
@@ -178,7 +178,7 @@ hr {
     }
 
     .logo {
-        margin: 20px auto 30px;
+        margin: 40px auto 40px;
         width: 602px;
         height: auto;
     }
@@ -326,15 +326,38 @@ dd {
 .box, .system {
     padding: 10px 10px;
     margin: 1.0em auto;
-    background: rgba(172, 180, 180, 0.2);
+    background: rgba(130, 134, 141, 0.2);
     border-radius: 10px;
+}
+
+.box::before {
+    color: rgb(95, 95, 82);
+    content: "サブロール";
+    font-weight: bold;
+    font-size: 160%;
+    right: 20px;
+    padding: 3px 8px;
+    position: absolute;
+    top: -15px;
 }
 
 .box2 {
     padding: 10px 10px;
-    margin: 1.0em auto;
-    background: rgba(54, 94, 99, 0.2);
+    margin: 3em auto;
+    background: rgba(78, 124, 167, 0.2);
     border-radius: 10px;
+    position: relative;
+}
+
+.box2::before {
+    color: rgb(141, 153, 177);
+    content: "雑談";
+    font-weight: bold;
+    font-size: 160%;
+    right: 20px;
+    padding: 3px 8px;
+    position: absolute;
+    top: -15px;
 }
 
 @media screen and (max-width: 767px) {
@@ -412,16 +435,15 @@ h2 {
     color: #fff;
     position: relative;
     padding: 10px 10px;
-    background-color: rgba(110, 107, 105, 0.7);
+    padding-bottom: .5em;
+    border-bottom: 1px solid #ccc;
 }
 
 h3 {
-    position: relative;
+    border-left: 6px double rgba(166, 159, 154, 0.5);
     padding: 5px 10px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    background: rgba(166, 159, 154, 0.5);
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 
 .player {
@@ -448,12 +470,12 @@ h3 {
 
 @media screen and (min-width: 768px) {
     h2 {
-        font-size: 200%;
+        font-size: 140%;
         margin: 15px auto;
     }
 
     h3 {
-        font-size: 160%;
+        font-size: 120%;
     }
 
     .player {
@@ -465,6 +487,10 @@ h2+h3 {
     margin-top: -5px;
 }
 
+h3+.txt_c{
+    margin-top: -20px;
+}
+
 .footer+h3 {
     margin-top: 0px;
 }
@@ -473,22 +499,7 @@ h3+.player {
     margin-top: -10px;
 }
 
-.footer {
-    position: fixed;
-    color: rgb(255, 255, 255);
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 0px;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 5px;
-    padding-bottom: 25px;
-    background: rgb(246, 239, 215);
-    display: flex;
-    justify-content: space-around;
-    z-index: 10;
-}
+
 
 .cutin {
     width: 100%;
@@ -617,7 +628,7 @@ a:link:not(.list_link):not(.tooltip):not(.page) {
 }
 
 a:visited:not(.list_link):not(.tooltip):not(.page) {
-    color: rgb(155, 84, 87);
+    color: rgb(196, 66, 72);
 }
 
 a:hover:not(.list_link):not(.tooltip):not(.page) {
@@ -634,13 +645,29 @@ a:hover:not(.list_link):not(.tooltip):not(.page) {
 /* /リンク色 */
 
 /* フッターのリンク色を変える場合は以下を編集 */
+.footer {
+    position: fixed;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    background: rgb(27, 71, 129);
+    display: flex;
+    justify-content: space-around;
+    z-index: 10;
+}
 
 a:link.page {
-    color: rgb(63, 64, 59);
+    color: rgb(177, 192, 209);
 }
 
 a:visited.page {
-    color: rgb(63, 64, 59);
+    color: rgb(177, 192, 209);
 }
 
 a:hover.page {
