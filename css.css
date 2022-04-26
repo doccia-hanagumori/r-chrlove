@@ -60,7 +60,7 @@ table {
 
 /* 見出しのwebフォント */
 
-h1, h2, h3, h4, h5, .menu, .menu2, .type, .poem, .list_t, .name, .box::before, .box2::before {
+h1, h2, h3, h4, h5, .menu, .menu2, .type, .poem, .list_t, .name, .box::before, .box2::before, .box3::before {
     font-family: 'Noto Serif JP', serif;
 }
 
