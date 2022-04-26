@@ -349,7 +349,24 @@ dd {
     position: absolute;
     top: -15px;
 }
+.box3 {
+    padding: 10px 10px;
+    margin: 3em auto;
+    background: rgba(78, 124, 167, 0.2);
+    border-radius: 10px;
+    position: relative;
+}
 
+.box3::before {
+    color: rgb(141, 153, 177);
+    content: "サブロール";
+    font-weight: bold;
+    font-size: 160%;
+    right: 20px;
+    padding: 3px 8px;
+    position: absolute;
+    top: -15px;
+}
 @media screen and (max-width: 767px) {
     .ic {
         margin-right: 10px;
