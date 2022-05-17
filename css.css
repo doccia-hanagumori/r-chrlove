@@ -349,6 +349,7 @@ dd {
     position: absolute;
     top: -15px;
 }
+
 .box3 {
     padding: 10px 10px;
     margin: 3em auto;
@@ -367,6 +368,7 @@ dd {
     position: absolute;
     top: -15px;
 }
+
 @media screen and (max-width: 767px) {
     .ic {
         margin-right: 10px;
@@ -425,8 +427,10 @@ dd {
     }
 }
 
-.prot {
+.poem2 {
     text-align: center;
+    color: rgb(177, 192, 209);
+    margin-bottom: 100px;
 }
 
 h1 {
@@ -494,7 +498,7 @@ h2+h3 {
     margin-top: -5px;
 }
 
-h3+.txt_c{
+h3+.txt_c {
     margin-top: -20px;
 }
 
