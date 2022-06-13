@@ -166,7 +166,7 @@ hr {
     }
 
     .type {
-        color: rgb(166, 159, 154);
+        color: rgb(177, 192, 209);
         font-size: 90%;
         margin: 20px auto 20px;
     }
@@ -188,7 +188,7 @@ hr {
     }
 
     .type {
-        color: rgb(166, 159, 154);
+        color: rgb(177, 192, 209);
         font-size: 120%;
         margin: 20px auto 20px;
     }
@@ -322,6 +322,11 @@ dd {
 }
 
 /* main */
+.star {
+    display: block;
+    margin: 30px auto;
+    max-width: 30px;
+}
 
 .box, .system {
     padding: 10px 10px;
@@ -451,14 +456,14 @@ h2 {
 }
 
 h3 {
-    border-left: 6px double rgba(166, 159, 154, 0.5);
+    border-left: 6px double rgba(177, 192, 209, 0.5);
     padding: 5px 10px;
     margin-top: 40px;
     margin-bottom: 15px;
 }
 
 .player {
-    border-left: 6px double rgba(166, 159, 154, 0.5);
+    border-left: 6px double rgba(177, 192, 209, 0.5);
     padding: 5px 10px;
     margin-top: 40px;
     margin-bottom: 15px;
@@ -682,7 +687,7 @@ a:visited.page {
 }
 
 a:hover.page {
-    color: rgb(166, 159, 154);
+    color: rgb(177, 192, 209);
     transition: color 0.5s
 }
 
