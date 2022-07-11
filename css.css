@@ -526,6 +526,36 @@ h3+.player {
     margin-bottom: 20px;
 }
 
+.cutin2 {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0 25%;
+    margin-bottom: 20px;
+}
+
+.cutinm {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 25%;
+    margin-bottom: 20px;
+}
+.cutinm2 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 15%;
+    margin-bottom: 20px;
+}
+
+.photo {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 35%;
+    margin-bottom: 20px;
+}
 .fail {
     color: #FF0000;
 }
