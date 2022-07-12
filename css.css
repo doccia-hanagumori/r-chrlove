@@ -329,6 +329,16 @@ dd {
     max-width: 30px;
 }
 
+.discript{
+	margin:20px 20px;
+    border: solid;
+    border-width: 0px 0px 0px 4px;
+	font-weight: bold;
+    padding: 10px;
+    color: #bac9ce;
+    border-color: #5e778c;
+}
+
 .box, .system {
     padding: 10px 10px;
     margin: 1.0em auto;
@@ -525,6 +535,31 @@ h3+.player {
     object-position: 0 5%;
     margin-bottom: 20px;
 }
+
+.cutinnpc1 {
+    width: 100%;
+    height: 200px;
+    object-fit: none;
+    object-position: 50% 11%;
+    margin-bottom: 20px;
+}
+
+.cutinnpc2 {
+    width: 100%;
+    height: 200px;
+    object-fit: none;
+    object-position: 50% 20%;
+    margin-bottom: 20px;
+}
+
+.cutinnpc3 {
+    width: 100%;
+    height: 200px;
+    object-fit: none;
+    object-position: 50% 30%;
+    margin-bottom: 20px;
+}
+
 
 .cutin2 {
     width: 100%;
