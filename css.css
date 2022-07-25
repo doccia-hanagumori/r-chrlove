@@ -158,7 +158,7 @@ hr {
 
     .logo {
         margin: 15px auto 20px;
-        max-width: 80px;
+        max-width: 80%;
         max-height: auto;
     }
 
@@ -259,6 +259,7 @@ hr {
 .credit {
     color: rgb(255, 255, 255);
     margin: 40px auto;
+    line-height: 1.5rem;
 }
 
 /* /index */
